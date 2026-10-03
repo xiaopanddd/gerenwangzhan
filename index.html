@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script>if (!matchMedia("(prefers-reduced-motion: reduce)").matches) document.documentElement.classList.add("motion");</script>
+<meta name="theme-color" content="#f4efe7">
+<title>潘潘 · 把想法做成作品</title>
+<meta name="description" content="潘潘的个人主页：用 AI、设计和内容做小游戏，把想法做成作品。">
+<meta property="og:title" content="潘潘 · 把想法做成作品">
+<meta property="og:description" content="用 AI、设计和内容做小游戏。双非本科，普通人，慢慢做。">
+<meta property="og:type" content="website">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preload" href="assets/fonts/smiley-sans.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/style.css">
+<script src="assets/main.js" defer></script>
+</head>
+<body>
+
+<nav class="nav" aria-label="主导航">
+  <div class="wrap nav-inner">
+    <a class="brand" href="index.html">
+      <span class="brand-mark" aria-hidden="true">潘</span>
+      <span class="brand-name">潘潘的小站</span>
+    </a>
+    <div class="nav-links">
+      <a href="index.html" aria-current="page">关于我</a>
+      <a href="works.html">作品</a>
+      <a href="reading.html">阅读</a>
+      <a href="contact.html">联系</a>
+    </div>
+  </div>
+</nav>
+
+<main>
+  <!-- ============ 首屏 ============ -->
+  <div class="wrap meta-strip">
+    <b>潘潘的小站</b>
+    <span>个人主页</span>
+    <span class="spacer"></span>
+    <span>更新于 <time datetime="2026-10">2026.10</time></span>
+  </div>
+
+  <div class="wrap hero">
+    <div class="hero-text">
+      <h1 class="display">
+        <span>潘潘</span>
+        <span>把想法</span>
+        <span>做成作品</span>
+      </h1>
+      <p class="hero-lede">
+        用 AI、设计和内容做小游戏。把脑子里冒出来的念头，一个个做成能点开、能玩、能看的作品。
+      </p>
+      <p class="hero-lede dim" style="margin-top:14px">
+        双非本科，普通人，没什么特别的背景。只是愿意把手弄脏，慢慢做。
+      </p>
+      <div class="hero-actions">
+        <a class="btn" href="works.html">看看作品 →</a>
+        <a class="btn btn--ghost" href="contact.html">来聊两句</a>
+      </div>
+    </div>
+
+    <!-- 拼贴照片：换头像只需替换 assets/avatar.webp -->
+    <figure class="photo" aria-label="潘潘的插画自画像">
+      <div class="photo-frame">
+        <img src="assets/avatar.webp" width="900" height="981" alt="潘潘的插画自画像：深棕色中长发，戴粉色圆框眼镜，穿藏青色衬衫，微笑">
+        <figcaption>
+          <span>NO.001 · 潘潘</span>
+          <span>插画：AI 生成</span>
+        </figcaption>
+      </div>
+      <span class="ticket" aria-hidden="true">双非本科<br>普通人<i>2026</i></span>
+      <div class="memo">
+        <b>在做：</b>
+        <ul>
+          <li>用 AI 做小游戏</li>
+          <li>设计</li>
+          <li>内容</li>
+          <li>持续更新中</li>
+        </ul>
+      </div>
+    </figure>
+  </div>
+
+  <!-- ============ 关于我 ============ -->
+  <section class="section" id="about" aria-labelledby="about-title">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 id="about-title"><span class="en">About</span>关于我</h2>
+      </div>
+      <div class="rows" style="display:grid;gap:18px;border:0">
+        <p style="max-width:44em;margin:0;font-size:15px;line-height:1.9">
+          我叫潘潘。平时喜欢折腾 AI 工具、琢磨界面怎么好看一点、顺手写点东西。最大的兴趣是
+          <strong>把想法做成真的能玩的东西</strong> —— 哪怕很小，只要做出来，就比只停在脑子里强。
+        </p>
+        <p style="max-width:44em;margin:0;font-size:15px;line-height:1.9;color:var(--ink-2)">
+          我不是科班出身，也不是什么天才。走的是最笨的那条路：先做出来，再做好。
+        </p>
+        <ul class="stickers" aria-label="兴趣">
+          <li class="sticker sticker--oval">AI 工具</li>
+          <li class="sticker sticker--stamp">小游戏</li>
+          <li class="sticker sticker--ticket">界面设计</li>
+          <li class="sticker sticker--star"><span>内容<br>创作</span></li>
+          <li class="sticker sticker--circle">正在学<br>写代码</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 现在在做 ============ -->
+  <section class="section" id="now" aria-labelledby="now-title">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 id="now-title"><span class="en">Now</span>现在在做</h2>
+        <span class="section-link" style="border:0">更新于 2026.10</span>
+      </div>
+      <ul class="now">
+        <li><b>在做</b><span>用 AI 辅助做小游戏，第一个能玩的版本还在改</span></li>
+        <li><b>在学</b><span>把界面做得更干净一点，少即是多</span></li>
+        <li><b>在写</b><span>记录做东西的过程，踩过的坑也写下来</span></li>
+        <li><b>在读</b><span>见「阅读」页，边看边记</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ============ 快捷入口 ============ -->
+  <section class="section" id="explore" aria-labelledby="explore-title">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 id="explore-title"><span class="en">Explore</span>这里有什么</h2>
+      </div>
+      <ul class="cards">
+        <li>
+          <a class="card card--blue" href="works.html">
+            <span class="card-no">01</span>
+            <h3>作品档案</h3>
+            <p>做过的小游戏、小工具、小设计。有些还很粗糙，但都是真的做出来了。</p>
+            <span class="card-foot">调阅档案 →</span>
+          </a>
+        </li>
+        <li>
+          <a class="card card--yellow" href="reading.html">
+            <span class="card-no">02</span>
+            <h3>阅读档案</h3>
+            <p>读过的书，和一两句真实感受。不写读后感，只记当时想到了什么。</p>
+            <span class="card-foot">翻阅书目 →</span>
+          </a>
+        </li>
+        <li>
+          <a class="card card--pink" href="contact.html">
+            <span class="card-no">03</span>
+            <h3>联络处</h3>
+            <p>想聊聊、想合作、或者只是想打个招呼，都欢迎。</p>
+            <span class="card-foot">留下联络 →</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
+</main>
+
+<div class="marquee" aria-hidden="true">
+  <div class="marquee-track">
+    <span>潘潘 · 把想法做成作品 · PANPAN · 用 AI 做小游戏 · </span>
+    <span>潘潘 · 把想法做成作品 · PANPAN · 用 AI 做小游戏 · </span>
+  </div>
+</div>
+
+<footer class="footer">
+  <div class="wrap footer-inner">
+    <span>© <span id="year">2026</span> 潘潘 · 把想法做成作品</span>
+    <span>手写的 HTML，没有框架</span>
+  </div>
+</footer>
+
+</body>
+</html>
